@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <menuitem
+            id = "parent_menu"
+            name = "Home"
+        />
+        <menuitem
+            id = "sub_menu_1"
+            name = "Student Information"
+            parent = "parent_menu"
+            action = "action_view_1"
+        />
+        <menuitem
+            id = "sub_menu_2"
+            name = "Question Information"
+            parent = "parent_menu"
+            action = "action_view_2"
+        />
+    </data>
+</odoo>
